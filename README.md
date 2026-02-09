@@ -47,3 +47,5 @@ Working with raw, "wild" text involves significant technical hurdles. This repos
 ---
 
 [Regular Expressions in Python || Python Tutorial || Learn Python Programming](https://www.youtube.com/watch?v=nxjwB8up2gI)
+
+[From_Raw_Text_to_Agentic_Intelligence.pdf]()

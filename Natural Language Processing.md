@@ -113,7 +113,28 @@ The NLP market is accelerating on a trajectory toward a projected value of **$39
 * **Multilingual Support**: Google’s **Universal Speech Model (USM)** aims to cover 1,000 languages, currently supporting over **400 languages (Shaip)**.
 * **Market Dominance**: North America currently leads the global market with a **30.7% revenue share (Shaip)**.
 
-> **The Ethical Mandate**: As NLP matures, "Ethical AI" is becoming a priority. Organizations face rising mandates to disclose training data sources to mitigate hallucinations and algorithmic biases in sensitive areas like hiring or lending **(Shaip)**. 
+> **The Ethical Mandate**: As NLP matures, "Ethical AI" is becoming a priority. Organizations face rising mandates to disclose training data sources to mitigate hallucinations and algorithmic biases in sensitive areas like hiring or lending **(Shaip)**.
+
+
+# 📊 Bag of Words vs. TF-IDF: A Technical Comparison
+
+In modern Natural Language Processing (NLP), choosing the right vectorization strategy is critical for model performance. This table provides a detailed comparative analysis between the **Bag of Words (BoW)** model and **Term Frequency-Inverse Document Frequency (TF-IDF)**.
+
+---
+
+| Aspect | Bag of Words (BoW) | TF-IDF |
+| :--- | :--- | :--- |
+| **Word Frequency** | Utilizes raw word counts for vector representation. | Employs term frequency adjusted by the inverse document frequency. |
+| **Order of Words** | Neglects word order and spatial relationships within the text. | Neglects word order and spatial relationships within the text. |
+| **Focus** | Concentrates on the raw occurrence of words within an individual document. | Concentrates on the statistical significance of words within a broader corpus. |
+| **Handling Common Words** | Assigns equal weight to all words, including non-discriminatory common terms like "the". | Down-weights common "noise" words and highlights rare, semantically significant words. |
+| **Use Case** | Optimal for fundamental text analysis tasks where raw frequency is the primary metric. | Superior for tasks requiring sophisticated importance ranking, such as search engine indexing. |
+
+---
+
+
+### 💡 Key Takeaway
+While **Bag of Words** is efficient for simple classification, **TF-IDF** provides a more nuanced understanding of "meaning" by filtering out the linguistic noise common in large datasets.
 
 ### 🎯 Conclusion
 Natural Language Processing has evolved from basic text cleanup into the essential engine for the **2025 "AI Era,"** enabling a sophisticated, structured understanding of the human world.

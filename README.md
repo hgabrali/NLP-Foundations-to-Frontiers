@@ -50,4 +50,4 @@ Working with raw, "wild" text involves significant technical hurdles. This repos
 
 [From_Raw_Text_to_Agentic_Intelligence.pdf](https://github.com/hgabrali/NLP-Foundations-to-Frontiers/blob/main/From_Raw_Text_to_Agentic_Intelligence.pdf)
 
-[Technical Comparative Analysis: Core NLP Methodologies]()
+[Technical Comparative Analysis: Core NLP Methodologies](https://github.com/hgabrali/NLP-Foundations-to-Frontiers/blob/main/Technical%20Comparative%20Analysis.md)
